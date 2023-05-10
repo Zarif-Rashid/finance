@@ -1,19 +1,8 @@
-from argparse import _StoreFalseAction
-from codecs import backslashreplace_errors
-from locale import currency
-from math import remainder
 import os
-import re
-from socket import gaierror
-from symtable import Symbol
-from tkinter import PIESLICE
-from turtle import pu
-from urllib import response
 
 from cs50 import SQL
-from flask import Flask, flash, redirect, render_template, request, session
+from flask import Flask, redirect, render_template, request, session
 from flask_session import Session
-from tempfile import mkdtemp
 from werkzeug.security import check_password_hash, generate_password_hash
 
 from helpers import apology, login_required, lookup, usd
